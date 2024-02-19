@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="https://formsubmit.co/dticampospc@gmail.com" class="form" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" placeholder="Seu nome completo" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Seu melhor e-mail" required>
+
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="text-area" placeholder="Dificuldades!!! escreva aqui😊" required></textarea>
+        
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html">
+        <button type="submit">Enviar</button>
+   </form>
+</body>
+</html>
